@@ -1,0 +1,106 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url(hypnotize.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+
+div.images {
+	position: relative;
+	top: 20pt;
+	height: 320;
+	width: 320;
+}
+
+canvas {
+	border: 1px solid #7B899B;
+}
+
+th {
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	font-style: normal;
+	font-size: 18pt;
+	color: rgb(230, 0, 92);
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px
+		rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+p.canvasParameter {
+	color: rgb(230, 0, 92);
+	position: relative;
+	top: 50px;
+}
+
+#content {
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#content td, #content th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#content tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#content tr:hover {
+	background-color: #ddd;
+}
+
+#content th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: rgb(230, 0, 92);
+	color: white;
+}
+
+p:first-letter {
+	text-transform: uppercase;
+}
+
+p {
+	color: #424242;
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond,
+		Times, serif;
+	letter-spacing: 0.1em;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 14pt;
+	font-variant: small-caps;
+}
+
+h1 {
+	ont-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+ font-style: italic;
+        color: #rgb(230, 0, 92);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(230, 0, 92);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(128, 0, 51);
+}
